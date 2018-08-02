@@ -24,6 +24,12 @@ public class CountryListApp {
 		boolean restart = true;
 		String newCountry = null;
 		
+		//checks for and creates a new file if necessary
+		CountriesFileUtil2.createBlankFile("Countries.txt");
+		
+		
+		
+		
 		//prints welcome statement
 		System.out.println("Welcome to the Countries Maintenance Application");
 		
